@@ -1,0 +1,38 @@
+@media only screen and (max-width: 580px) {
+    .hero-desc {
+        transform: translateX(5rem) rotate(20deg);
+    }
+
+    .cate-heading > div {
+        font-size: 6rem;
+    }
+
+    .about-heading-main h1 span{
+        font-size: 2rem;
+    }
+
+    .about-list {
+        gap: 2rem 0;
+    }
+
+    .about-item,
+    .techs-item {
+        flex: 1 100%;
+    }
+
+    .techs-list {
+        gap: 3rem 0;
+    }
+
+    .techs-item {
+        margin: unset!important;
+    }
+
+    .buy-prods-slogan span {
+        font-size: 6.5rem!important;
+    }
+
+    button.buy-prods {
+        padding: 2rem 3rem;;
+    }
+}

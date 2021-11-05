@@ -1,0 +1,139 @@
+@media only screen and (max-width: 768px) {
+    
+    .navig-sub {
+        padding: 0 2rem;
+        padding-bottom: 10rem;
+    }
+
+    .navig-sub-main {
+        flex: 1 100%;
+    } 
+
+    .navig-sub-content {
+        overflow-y: scroll;
+    }
+
+    .navig-sub-content::-webkit-scrollbar {
+        display: none;
+    }
+
+    .navig-sub-content {
+        flex-wrap: wrap;
+    }
+
+    .navig-sub-menu,
+    .navig-extra-menu {
+        text-align: center;
+    }
+
+    .navig-sub-item a {
+        
+    }
+
+    .navig-sub-contact {
+        flex: 1 100%;
+        text-align: center;
+    }
+
+    .navig-sub-contact form {
+        width: 100%;
+    }
+
+    .navig-sub-contact:before {
+        display: none;
+    }
+
+    .navig-sub-contact-search {
+        margin-top: 1rem!important;
+    }
+
+    .navig-sub-contact-search {
+        justify-content: center;
+    }
+
+    .navig-extra-menu {
+        width: 100%;
+    }
+
+    .navig-extra-control-btn {
+        margin: 0 auto;
+    }
+
+    .hero-slogan {
+        font-size: 6rem;
+    }
+
+    .hero-slogan > span:first-child span {
+        font-size: 7rem!important;
+    }
+
+    .hero-desc {
+        transform: translateX(9rem) rotate(20deg);
+        top: 70%;
+    }   
+
+    .hero-desc span {
+        font-size: 1.4rem;
+    }
+
+    .about-heading {
+        flex-wrap: wrap;
+    }
+
+    .about-heading-main {
+        flex: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .cate-menu {
+        flex-wrap: wrap;
+    }
+
+    .cate-list {
+        flex: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .cate-list.list-2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .cate-heading {
+        margin-bottom: 2rem;
+    }
+
+    .cate-heading > div {
+        font-size: 9rem;
+    }
+
+    .techs-heading {
+        width: 100%;
+    }
+    
+    .buy-prods-slogan span {
+        font-size: 9rem!important;
+    }
+
+    button.contact-btn {
+        right: unset;
+        bottom: 0;
+        left: 0;
+        top: unset;
+        transform: unset;
+    }
+
+    .footer-copyright {
+        height: 30%;
+    }
+
+    .footer-copyright-main {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-copyright-main p {
+        margin-top: 10px;
+    }
+}

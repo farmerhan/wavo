@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1500px) {
+    .navig {
+        padding: 2rem 0;
+    }
+
+    .navig-main {
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .navig,
+    .navig-block {
+        height: 8rem;
+    }
+
+    .navig-sub {
+        padding: 0 10rem;
+    }
+
+    .hero-desc {
+        transform: translate(20px, -100px) rotate(-70deg);
+    }
+
+    .cate-content,
+    .about-content,
+    .techs-content,
+    .footer-content,
+    .buy-prods-overlay,
+    .buy-prods-content,
+    .footer-copyright-main {
+        max-width: 90%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .cate-image {
+        margin-top: 10%;
+        flex: 1 100%;
+    }
+
+    .about {
+        padding-bottom: 10rem;
+    }
+
+    .about-heading {
+        margin-bottom: 5rem;
+    }
+
+    .about-heading-main {
+        flex: 1 1 40%;
+        margin-top: -5.6rem;
+    }
+
+    .about-heading-desc {
+        flex: 1;
+    }
+
+}
